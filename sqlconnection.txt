@@ -1,0 +1,8 @@
+import mysql.connector
+
+company_finance = mysql.connector.connect(
+  host="localhost",
+  user="ruthvik",
+  password="pass123"
+)
+
